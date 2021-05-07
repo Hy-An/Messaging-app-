@@ -1,12 +1,12 @@
-const messages = document.getElementById("mensajes");
-const text = document.getElementById("texto");
-const button = document.getElementById("boton");
+const MESSAGES = document.getElementById("mensajes");
+const TEXT = document.getElementById("texto");
+const BUTTON = document.getElementById("boton");
 
-button.addEventListener("click", function(){
-    const newmessage = document.createElement("li");
-    newmessage.innerHTML = text.value;
-    messages.appendChild(newmessage);
-    text.value="";
+BUTTON.addEventListener("click", function(){
+    const NEWMESSAGE = document.createElement("li");
+    NEWMESSAGE.innerHTML = TEXT.value;
+    MESSAGES.appendChild(NEWMESSAGE);
+    TEXT.value="";
 });
 
-console.log("test")
+
