@@ -3,9 +3,9 @@ const TEXT = document.getElementById("texto");
 const BUTTON = document.getElementById("boton");
 
 BUTTON.addEventListener("click", function(){
-    const NEWMESSAGE = document.createElement("li");
-    NEWMESSAGE.innerHTML = TEXT.value;
-    MESSAGES.appendChild(NEWMESSAGE);
+    const NEW_MESSAGE = document.createElement("li");
+    NEW_MESSAGE.innerHTML = TEXT.value;
+    MESSAGES.appendChild(NEW_MESSAGE);
     TEXT.value="";
 });
 
